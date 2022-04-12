@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Environmental Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    nav{
+        width: 10%;
+        height: 100%;
+        color: red;
+    }
+    #bootstrap-overrides .tabs {
+        color: rgb(95, 181, 189);
+    }
+    #bootstrap-overrides .tabsactive {
+        color: rgb(119, 190, 115);
+        background-color: black;
+    }
+    #bootstrap-overrides .tabs:hover {
+        color: rgb(119, 190, 115);
+        background-color: white;
+    }
+    #bootstrap-overrides .topTab{
+        background-color: black;
+    }
+    .logo{
+        width:30%;
+        height:50%;
+        margin-top: 2%;
+    }
+    body {
+        background: black;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .container {
+        position: relative;
+        width: 100%;
+    }
+    .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .container:hover .image {
+        opacity: 0.3;
+    }
+
+    .container:hover .middle {
+        opacity: 1;
+    }
+
+    .text {
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+    }
+    h1 {
+        font-size: 75px;
+    }
+    p{
+        font-size: 30px;
+        color: white;
+    }
+
+</style>
+<body id="bootstrap-overrides">
+
+    <br><br><br>
+    <div align="center">
+        <h1 style="color: white;">About Us!</h1>
+    </div>
+
+    <div align="center">
+        <img src="about.png" alt="logo" class="logo" style="width:75%;">
+    </div>
+
+    <div align="center"><br>
+        <p>LHSC is an organized program that has been developed in hopes to help the earth with the issues it's experiencing globally. We are a group of college students who feel that we as Canadian citizens can make a change for the better. The Land Health Security Corp hopes to gather donations from those who can provide, in return for receiving donations the LHSC has decided that for each donation they will plant a tree, or garbage will get picked up, and if fundraisers are successful we plan to enlarge the program with proper equipment to clean important bodies of water!</p><br>
+    </div>
+
+    <div class="container">
+        <ul class="nav nav-tabs nav-pills navbar-fixed-top navbar-inverse nav-justified topTab">
+        <!-- Tab 1 open -->
+        <li><a href="index.html" class = "tabs"><br>General Information</a></li>
+        <!-- Tab 1 close -->
+
+        <!-- Tab 2 open -->
+        <li><a href="News%20And%20Media.html" class = "tabs"><br>News And Media</a></li>
+        <!-- Tab 2 close -->
+
+        <!-- Tab 4 open -->
+        <li><a href="Measures%20Of%20Our%20Current%20Projects.html" class = "tabs">How We Will Measure Our Future Success</a></li>
+        <!-- Tab 4 close -->
+
+        <!-- Tab 8 open -->
+        <li><a href="Statistics.html" class = "tabs"><br>Statistics</a></li>
+        <!-- Tab 8 close -->
+
+        <!-- Tab 5 open -->
+        <li><a href="Donation.html" class = "tabs"><br>Donation</a></li>
+        <!-- Tab 5 close -->
+
+        <!-- Tab 6 open -->
+        <li><a href="About%20Us.html" class = "tabsactive"><br>About Us</a></li>
+        <!-- Tab 6 close -->
+
+        <!-- Tab 7 open -->
+        <li><a href="Contact%20Us.html" class = "tabs"><br>Contact Us</a></li>
+        <!-- Tab 7 close -->
+
+        <!-- Tab 9 open -->
+        <li><a href="Citations.html" class = "tabs"><br>Citations</a></li>
+        <!-- Tab 9 close -->
+        </ul>
+      </div>
+</body>
+</html>
